@@ -1,0 +1,25 @@
+.header {
+    width: 25%;
+    height: 175px;
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+}
+
+.h1Logo {
+    margin: 0px;
+}
+
+.subTitle {
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
