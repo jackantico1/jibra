@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="app">
         <Header/>
-        <Sample title="Cajun Connection"/>
+        <Sample title="Cajun Connection" displayNum="0"/>
       </div>
     );
   }
