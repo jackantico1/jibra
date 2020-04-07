@@ -10,6 +10,7 @@ class App extends Component {
       <div className="app">
         <Header/>
         <Sample title="Cajun Connection" displayNum="0"/>
+        <Sample title="The Product Management Intern" displayNum="1"/>
       </div>
     );
   }
