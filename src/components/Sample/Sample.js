@@ -6,7 +6,7 @@ import ThePMInternScreen2 from '../../assets/pmIntern2.png';
 import ThePMInternScreen3 from '../../assets/pmIntern3.png';
 
 let cajunConnectionText = "Cajun Connection is a social media app made for young proffesionals to give ananayous feedback on each other's resumes, portfolio's, and proffesional work. It allows users to create profiles and form connections with other students/young proffesionals interested in growing their network."
-let theProductManagementInternText = "The Product Management Intern is a website blog which features content on how what product management internships are like and how to get one. The website was built with react and is hosted for free by Github Pages."
+let theProductManagementInternText = "The Product Management Intern is a website blog which features content on how what product management internships are like and how to get one. The website was built with React.js and is hosted for free by Github Pages."
 let bcDiningMenusText = "BC Dining Menus is an iOS application which displays the menus of the 12 diffrent dining halls at BC. The app scrapes information from the hard-to-read BC Dining website and displays it in a friendly format."
 
 class Sample extends Component {
@@ -36,9 +36,9 @@ class Sample extends Component {
     return (
       <div className="sample">
         <h1 className="title">{this.props.title}</h1>
-        <div className="containerOne">
+        <div className="containerOneSample">
           <img  src={returnDisplayImage(this.props.displayNum)} alt="Screenshot"/>
-          <p>{returnDisplayText(this.props.displayNum)}</p>
+          <p className="sampleText">{returnDisplayText(this.props.displayNum)}</p>
         </div>
       </div>
     );
