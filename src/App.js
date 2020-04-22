@@ -13,8 +13,11 @@ class App extends Component {
           <Header/>
           <NavBar/>
         </div>
-        <Sample title="Cajun Connection" displayNum="0"/>
-        <Sample title="The Product Management Intern" displayNum="1"/>
+        <Sample title="Cars Against Colon Cancer" displayID="cacc"/>
+        {/* <Sample title="BC Dining Menus" displayID="bcdm"/> */}
+        <Sample title="The Product Management Intern" displayID="pmi"/>
+        <Sample title="Page Master" displayID="pm"/>
+        <Sample title="Cajun Connection" displayID="cc"/>
       </div>
     );
   }

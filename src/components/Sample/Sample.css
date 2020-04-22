@@ -1,7 +1,7 @@
 .sample {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 100px;
 }
 
@@ -16,9 +16,12 @@
 .containerOneSample {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .sampleText {
-    font-size: 18px;
+    width: 250px;
     margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
 }
